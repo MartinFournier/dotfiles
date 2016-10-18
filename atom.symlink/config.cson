@@ -1,42 +1,87 @@
 "*":
+  Zen:
+    fullscreen: false
+    minimap: true
+    softWrap: true
+    typewriter: true
+  "atom-beautify":
+    _analyticsUserId: "a0f032e1-a5ee-42a0-a939-b028b022cdc7"
+    general:
+      _analyticsUserId: "cd60cdf9-4f30-4b5b-9c76-d1a02c372405"
+  "atom-html-preview":
+    triggerOnSave: true
+  "atom-lint":
+    showViolationMetadata: false
+  "atom-material-ui": {}
+  "bracket-matcher":
+    autocompleteSmartQuotes: false
   core:
+    audioBeep: false
     disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
+      "atom-lint"
+      "jshint"
+      "node-debugger"
+      "atom-yeoman"
+      "linter-jshint"
+      "linter-write-good"
+      "omnisharp-atom"
+      "json-schema"
+      "git-difftool"
+      "dictionary"
+      "goto"
+      "color-picker"
+      "split-diff"
+      "linter-scss-lint"
+      "language-jsx"
     ]
-    followSymlinks: false
-    hideGitIgnoredFiles: true
     ignoredNames: [
-      ".bundle"
       ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
+      "*.meta"
+      "ProjectSettings"
+      ".gitinclude"
+      ".DS_Store"
+      "node_modules"
+      ".meteor"
+      ".tags"
     ]
+    telemetryConsent: "limited"
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "seti-ui"
+      "seti-syntax"
     ]
   editor:
-    fontFamily: "Menlo"
-    fontSize: 15
+    fontFamily: "Monaco"
+    fontSize: 18
     invisibles: {}
+    scrollPastEnd: true
     showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
+  "exception-reporting":
+    userId: "d03e1a76-fac6-f666-ec91-1ea45a1a6265"
+  "fuzzy-finder": {}
+  hex: {}
+  latex: {}
+  linter:
+    errorPanelHeight: 162
   "linter-eslint":
-    useGlobalEslint: true
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
+    disableWhenNoEslintrcFileInPath: true
+  "linter-jshint": {}
+  "linter-write-good": {}
+  minimap:
+    absoluteMode: true
+  "node-debugger":
+    nodePath: "/usr/local/bin/node"
+  "spell-check": {}
+  tablr: {}
+  tabs:
+    enableVcsColoring: true
+    showIcons: true
+    usePreviewTabs: true
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+  wordcount:
+    ignorecode: true
+    noextension: true
